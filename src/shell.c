@@ -77,7 +77,7 @@ int main(int argc, char** argv) {
 
 	prompt = malloc(1000 * sizeof(char));
 	memset(prompt, '\0', 1000);
-	strcpy(prompt, "sfish> ");
+	strcpy(prompt, "shell> ");
 
 	userP = malloc(256);
 	memset(userP, '\0', 256);

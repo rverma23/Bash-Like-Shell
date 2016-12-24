@@ -176,7 +176,7 @@ void setPrompt() {
 	sigfillset(&maskall);
 	sigprocmask(SIG_BLOCK, &maskall, &prev);
 
-	char *sfish = "sfish";
+	char *sfish = "shell";
 
 	memset(prompt, '\0', 1000);
 	strcpy(prompt, sfish);
